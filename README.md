@@ -23,5 +23,9 @@ Therefore the following restrictions apply:
   
 => Provide tests for the functionality described in first line
 
-Note: Since this is command line program, it is not persisting data in cache or database, on every rerun of the program the questions and the answera 
-data stored will be erased. The answers stored for the questions can be retrieved only in the one time running instance of that program.
+# Note
+ 
+1. Since this is command line program, it is not persisting data in cache or database, on every rerun of the program the questions and the answers 
+data stored will be erased. 
+2. The answers stored for the questions can be retrieved only in the running instance of that program.
+3. System.out.print function is used to output the data to console, instead of using logging libraries, because this program is currently using only Java8 library and not using any external libraries/dependencies.
