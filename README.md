@@ -1,5 +1,5 @@
 
-1. A java command line program that gives me two options. One to ask a specific question and the other option is to add questions and their answers
+A java command line program that gives me two options. One to ask a specific question and the other option is to add questions and their answers
 
 Therefore the following restrictions apply: 
 
@@ -14,13 +14,13 @@ Therefore the following restrictions apply:
 
 => Adding a question looks like: 
 
-  -> ? <question>? "<answer1>" "<answer2>" "<answerX>"
+    -> ? <question>? "<answer1>" "<answer2>" "<answerX>"
   
-  -> Char "?" is the separator between question and answers 
+    -> Char "?" is the separator between question and answers 
   
-  -> Every Question needs to have at least one answer but can have unlimited answers all inside of char " 
+    -> Every Question needs to have at least one answer but can have unlimited answers all inside of char " 
   
-=> Provide tests for the functionality described in 1)
+=> Provide tests for the functionality described in first line
 
 Note: Since this is command line program, it is not persisting data in cache or database, on every rerun of the program the questions and the answera 
 data stored will be erased. The answers stored for the questions can be retrieved only in the one time running instance of that program.
